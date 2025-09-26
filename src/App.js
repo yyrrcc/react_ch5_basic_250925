@@ -9,6 +9,7 @@ import State01 from "./component/State01";
 import State02 from "./component/State02";
 import State03 from "./component/State03";
 import State04 from "./component/State04";
+import Ref01 from "./component/Ref01";
 
 // props가 아닌 컴포넌트에 컴포넌트를 보낼 수도 있다(Array -> ChildComp)
 function ChildComp() {
@@ -38,8 +39,9 @@ function App() {
       <State01 />
       <State02 />
       <State03 />
-      <Footer /> */}
       <State04 />
+      <Footer /> */}
+      <Ref01 />
     </div>
   );
 }
