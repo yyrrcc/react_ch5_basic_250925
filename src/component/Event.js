@@ -3,13 +3,15 @@ const Event = () => {
   function handleOnClick() {
     alert("클릭 성공!");
   }
+  // 버튼 눌렀을 때 모든 정보가 e 객체에 저장됨
   function handleOnClick2(e) {
     console.log(e.target.name);
-    alert("AB 버튼!");
+    alert("A, B 어떤 버튼을 눌렀는지는 콘솔창에서 확인하세요.");
   }
 
   return (
     <>
+      <h1>----------------- Event ---------------------</h1>
       {/* {}안에 함수의 이름만 전달하면 됨 */}
       <button onClick={handleOnClick}>클릭하세요</button>
       <br />

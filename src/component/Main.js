@@ -18,7 +18,7 @@ const Main = () => {
       <h3>{number1}</h3>
       <h3>{number1 + number2}</h3>
       <h3>{str1 + str2}</h3>
-      <h3 className="txt1">boolean은 랜더링 되지 않아 String 형변환 해야 출력됨</h3>
+      <span className="txt1">boolean은 랜더링 되지 않아 String 형변환 해야 출력됨</span>
       <h3>{bool1}</h3>
       <h3>{String(bool2)}</h3>
       <h3>{obj1.name}</h3>
@@ -26,7 +26,6 @@ const Main = () => {
       {/* JSX : 닫힘 규칙에 엄격하다 */}
       {/* <img src=""></img> */}
       <input />
-      <h3>--------------------------------</h3>
     </>
   );
 };

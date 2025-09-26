@@ -5,6 +5,7 @@ const Section = ({ name, age, ...rest }) => {
   const { username, userage } = rest;
   return (
     <React.Fragment>
+      <h1>----------------- Section ---------------------</h1>
       <h4>
         {num}는 {num % 2 === 0 ? "짝수" : "홀수"}
       </h4>
