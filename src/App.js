@@ -1,15 +1,16 @@
-import "./App.css";
-import Header from "./component/Header";
-import Footer from "./component/Footer";
-import Main from "./component/Main";
-import Section from "./component/Section";
-import Array from "./component/Array";
-import Event from "./component/Event";
-import State01 from "./component/State01";
-import State02 from "./component/State02";
-import State03 from "./component/State03";
-import State04 from "./component/State04";
-import Ref01 from "./component/Ref01";
+import './App.css';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import Main from './component/Main';
+import Section from './component/Section';
+import Array from './component/Array';
+import Event from './component/Event';
+import State01 from './component/State01';
+import State02 from './component/State02';
+import State03 from './component/State03';
+import State04 from './component/State04';
+import Ref01 from './component/Ref01';
+import Ref02 from './component/Ref02';
 
 // props가 아닌 컴포넌트에 컴포넌트를 보낼 수도 있다(Array -> ChildComp)
 function ChildComp() {
@@ -17,14 +18,14 @@ function ChildComp() {
 }
 
 function App() {
-  const name = "김민지";
+  const name = '김민지';
   const age = 24;
   const sectionProps = {
-    username: "이지수",
+    username: '이지수',
     userage: 32,
   };
   const arrayProps = {
-    name: "박혜윤",
+    name: '박혜윤',
     //food: ["파스타", "짜장면", "김치찜"],
   };
   return (
@@ -42,6 +43,7 @@ function App() {
       <State04 />
       <Footer /> */}
       <Ref01 />
+      <Ref02 />
     </div>
   );
 }
